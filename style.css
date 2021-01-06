@@ -29,7 +29,7 @@ section{
     width: 100%;
     height: 60px;
     margin-bottom: 3%;
-    background-color: #329664;
+    background-image:  linear-gradient(45deg,#3a3125,#31243d,#111f2b);
 }
 .item li{
     list-style-type: none;
@@ -37,7 +37,7 @@ section{
 }
 .item li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     font-size: 20px;
 }
@@ -107,15 +107,40 @@ section{
     padding-top: 2%;
     text-align: center;
 }
-.four-part img{
-    height: 160px;
-}
-.contact-banner{
-    width: 50%;
-    display: block;
-    margin-left: auto;
+.four-part{
+    background-image: url(/image/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 60%;
     margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
 }
+.four-part h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 5.5%;
+    display: inline-block;
+    padding-left: 7%;
+}
+.inquiry{
+    padding: 10px 15px;
+    background-image: linear-gradient(45deg, #ff00f2,#5eff00);
+    margin-left: 78%;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    display: block;
+    margin-top: -6.5%;
+    outline: none;
+    border: 1px solid tomato;
+    text-decoration: none;
+    width: 12%;
+    text-align: center;
+}
+
 .contact-description h2{
     text-align: center;
 }
